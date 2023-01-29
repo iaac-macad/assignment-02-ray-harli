@@ -2,7 +2,7 @@
 import * as THREE from 'three'
 
 // uncomment to load controls
-//import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 
 
 // create a scene and a camera
@@ -16,7 +16,7 @@ renderer.setSize( window.innerWidth, window.innerHeight )
 document.body.appendChild( renderer.domElement )
 
 // Uncomment next line to add controls
-// const controls = new OrbitControls( camera, renderer.domElement );
+const controls = new OrbitControls( camera, renderer.domElement );
 
 // Create an object and add it to the scene:
 
