@@ -8,6 +8,7 @@ import { HDRCubeTextureLoader } from 'three/addons/loaders/HDRCubeTextureLoader.
 let scene, camera, renderer
 const model = 'base_model.3dm'
 window.addEventListener('click', onClick);
+const mouse = new THREE.Vector2()
 
 // call functions
 init()
